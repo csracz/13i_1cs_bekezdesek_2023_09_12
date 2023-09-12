@@ -1,0 +1,38 @@
+CSS alapok
+CSS utasítások szerkeze
+    szelektor{deklarációs utasítás}
+
+    szelektor: mit akarok formázni
+    szelektor lehet:
+        html_tag_neve: pl.: p, body, table, ...
+        osztálykijelölő (class): .dolt, .felkover, .piros, ...
+        azonosító kijelölő (id): #oldalfejlec, #balsav, ...
+    
+    deklarációs utasítás:
+        tulajdonság_neve: érték;
+    
+    pl.:
+        body{
+            backround-color: red;
+        }
+    
+    CSS utasítások csoportosítása:
+        szelektor alapján:
+            p{ text-align: left;}
+            p{ color: green;}
+
+            p{
+                text-align: left;
+                color: green;
+            }
+        azonos tulajdonság alapján:
+            p{ color: pink;}
+            .rozsa{ color: pink;}
+
+            p, .rozsa{
+                color: pink;
+            }
+        egymásba ágyazás:
+        pl.: p .dolt{
+                    font-style: italic;
+                }
